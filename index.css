@@ -170,10 +170,29 @@ font-family: 'Do Hyeon', sans-serif; */
   font-size: 1.1rem;
 }
 /* commercial-w */
-.commercial-w {
-  background-color: #a4df; 
+.commercial-w,
+.commercial-w h1,
+.commercial-w .commercial-c,
+.commercial-w .commercial-inquiry-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
+.commercial-w {
+  background-color: #333333; 
+  color: white;
+}
+.commercial-w h1 {
+  flex: 2;
+}
+.commercial-w .commercial-c {
+  width: 70%;
+  flex: 7;
+}
+.commercial-w .commercial-inquiry-c {
+  flex: 1;
+}
 /* media qury */
 @media screen and (max-width: 450px) {
   .go-category-w img {
