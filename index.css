@@ -1,0 +1,23 @@
+/* Common */
+*{border: 0; margin: 0; box-sizing: border-box;}
+body {
+  width: 100%;
+  height: 300vh;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+}
+/* search-w */
+.search-w {
+  background-color: #ffff;
+}
+/* link-w */
+.link-w {
+  background-color: #3333; 
+}
+
+/* commercial-w */
+.commercial-w {
+  background-color: #a4df; 
+}
