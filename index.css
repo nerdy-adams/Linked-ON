@@ -10,11 +10,55 @@ body {
 }
 /* search-w */
 .search-w {
-  background-color: #ffff;
+  background: url("./search-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-w .search-c-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+.search-c-header h1 {
+  font-size: 3rem; 
+  color: #333;
+}
+.search-w .search-c-main {
+  display: flex;
+  justify-content: center;
+}
+.search-c-main .search-p-bar {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.search-c-main .search-p-bar .search-i-bar {
+  display: flex;
+  align-items: center;
+}
+.search-c-main .search-p-bar .search-i-bar select {
+  height: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0; 
+  margin-right: 10px;
+}
+.search-c-main .search-p-bar .search-i-bar .search-input {
+  width: 160px;
+  height: 20px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border-bottom: 2px solid #f3f3f3;
+}
+.search-c-main .search-p-bar .search-i-bar .search-submit  {
+  height: 20px;
 }
 /* link-w */
 .link-w {
-  background-color: #3333; 
+  background-color: #3333;
 }
 
 /* commercial-w */

@@ -4,18 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Linked ON</title>
+  <title>통합 검색 사이트 : Linked ON</title>
   <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  <div class='root'>
-    <div class='section search-w'>
-      <h1> search page </h1>
+  <div class="root">
+    <div class="section search-w">
+      <div class="search-c-header">
+        <h1> LINKED ON </h1>
+      </div>
+      <div class="search-c-main">
+        <div class="search-p-bar">
+          <div class="search-i-bar">
+            <select name="search-filters" id="search-filter">
+              <option value="google-s-f">Google</option>
+              <option value="naver-s-f">Naver</option>
+              <option value="daum-s-f">Daum</option>
+            </select>
+            <input type="text" id="search-input" class="search-input" placeholder="검색어">
+            <input type="button" class="search-submit" value="검색">
+          </div> 
+        </div>
+      </div>
     </div>
-    <div class='section link-w'>
+    <div class="section link-w">
       <h1> link page </h1>
     </div>
-    <div class='section commercial-w'>
+    <div class="section commercial-w">
       <h1> commercial page </h1>
     </div>
   </div>
